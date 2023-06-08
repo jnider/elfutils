@@ -392,6 +392,8 @@ dwelf_elf_e_machine_string (int machine)
       return "Moxie";
     case EM_AMDGPU:
       return "AMD GPU";
+    case EM_AMDAIR:
+      return "AMD AIR";
     case EM_RISCV:
       return "RISC-V";
     case EM_BPF:
